@@ -1,0 +1,2 @@
+worker: python nocache.py
+web: python -m http.server $PORT
